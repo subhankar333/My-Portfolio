@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+
+
+      <nav id="desktop-nav">
+          <div class="logo">Subhankar Jadab</div>
+          <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+      </nav>
+
+
+      <nav id="hamburger-nav">
+        <div class="logo">Subhankar Jadab</div>
+        <div class="hamburger-menu">
+
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+             <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+             </div>
+
+        </div>
+      </nav>
+
+      <section id="profile">
+            <div class="section__pic-container">
+                <img src="media/side.jpeg" alt="Proile Picture" class="pp">
+            </div>
+
+            <div class="section__text">
+                <p class="section__text__p1">
+                    Hello, I'm
+                </p>
+                <h1 class="title">Subhankar Jadab</h1>
+                <p class="section__text__p2">
+                    Backend Developer
+                </p>
+                <div class="btn-container">
+                    <button class="btn btn-clor-2" onclick="window.open('media/Subhankar_Resume_.pdf')">
+                        Download CV
+                    </button>
+                    <button class="btn btn-clor-1" onclick="location.href='./#contact'">
+                        Contact Info
+                    </button>
+                </div>
+                <div class="social-container">
+                    <img src="media/linked_in.png" alt="My LinkedIn Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/subhankar-kumar/'">
+                    <img src="media/github.png" alt="My Github Profile" class="icon" onclick="location.href='https://github.com/subhankar333'">
+                    <img src="media/leet.png" alt="My Leetcode Profile" class="icon lc-icon" onclick="location.href='https://leetcode.com/subhankar_94/'">
+                </div>
+            </div>
+      </section>
+
+      <section id="about">
+        <p class="section__text__p1">Get to know more </p>
+        <h1 class="title-h1">About Me</h1>
+        <div class="section-container">
+
+            <div class="section__pic__container">
+                <img src="media/tomm.jpg" alt="Profile Picture" class="about-pic">
+            </div>
+
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="media/expe.png" alt="Experience icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>Technical Content Writer <br> GeeksForGeeks</p>
+                    </div>
+                    
+                <div class="details-container">
+                    <img src="media/edu.jpg" alt="Education Icon" class="icon">
+                    <h3>Education</h3>
+                    <p>B.Tech Bachelors <br>Electronics and Communications Engineering</p>
+                </div>
+            </div>
+                <div class="text-container">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus saepe reiciendis officia minus ipsum, quibusdam accusantium fugiat incidunt voluptates illum non numquam laudantium vel eos, voluptate in? Possimus neque at eligendi, totam maiores sit molestiae commodi incidunt deleniti ducimus hic.</p>
+                </div>
+        </div>
+        </div>
+        <img src="media/arrow.webp" alt="Arrow Icon" class="icon arrow"
+        onclick="location.href='./#skills'">
+    </section>
+
+
+    <section id="skills">
+        <p class="section__text__p1">Explore my</p>
+        <h1 class="title-h1">Skills</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="media/check.jpg" alt="CheckMark Icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="media/check.jpg" alt="CheckMark Icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="media/check.jpg" alt="CheckMark Icon" class="icon">
+                            <div>
+                                <h3>Javascript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="media/check.jpg" alt="CheckMark Icon" class="icon">
+                            <div>
+                                <h3>Bootstarp</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="media/check.jpg" alt="CheckMark Icon" class="icon">
+                            <div>
+                                <h3>JQuery</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="media/check.jpg" alt="CheckMark Icon" class="icon">
+                            <div>
+                                <h3>MySQL</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="media/check.jpg" alt="CheckMark Icon" class="icon">
+                            <div>
+                                <h3>Django</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="media/check.jpg" alt="CheckMark Icon" class="icon">
+                            <div>
+                                <h3>Git</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="media/arrow.webp" alt="Arrow Icon" class="iconn arrow"
+        onclick="location.href='./#projects'">
+    </section>
+
+
+    <section id="projects">
+        <p class="section__text__p1">Browse my recent</p>
+        <h1 class="title-h1">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="media/ecom.jpg" alt="E-commerce" class="project-img">
+                </div>
+                <h2 class="experience-details-container project-title">E-Commerce App</h2>
+                <div class="btn-container">
+                    <button class="btn btn-clor-2 project-btn" onclick="location.href='https://github.com/subhankar333/E-Com'">
+                        Github
+                    </button>
+                    <button class="btn btn-clor-2 project-btn" onclick="location.href='https://subhankar94.pythonanywhere.com/'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="media/google.webp" alt="E-commerce" class="project-img">
+                </div>
+                <h2 class="experience-details-container project-title">Google Search Clone</h2>
+                <div class="btn-container">
+                    <button class="btn btn-clor-2 project-btn" onclick="location.href='https://github.com/subhankar333/Google-Search-Clone'">
+                        Github
+                    </button>
+                    <button class="btn btn-clor-2 project-btn" onclick="location.href='https://github.com/subhankar333/Google-Search-Clone'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="media/git_hub.png" alt="E-commerce" class="project-img">
+                </div>
+                <h2 class="experience-details-container project-title">Github User Search App</h2>
+                <div class="btn-container">
+                    <button class="btn btn-clor-2 project-btn" onclick="location.href='https://github.com/subhankar333/Github-User-Search-App'">
+                        Github
+                    </button>
+                    <button class="btn btn-clor-2 project-btn" onclick="location.href='https://subhankar333.github.io/Github-User-Search-App/'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+        <img src="media/arrow.webp" alt="Arrow Icon" class="icon arrow"
+        onclick="location.href='./#projects'">
+    </section>
+
+
+    <section id="contact">
+        <p class="section__text__p1">Get in touch</p>
+        <h1 class="title-h1">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="media/mail.png" alt="mail icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:subhankarjadab@gmail.com">subhankarjadab@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="media/linked_in.png" alt="LinkedIn icon" class="icon contact-icon">
+                <p><a target="_blank" href="https://www.linkedin.com/in/subhankar-kumar/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 subhankar_94 . All rights reserved.</p>
+    </footer>
+
+
+     <script src="script.js"></script>
+</body>
+</html>
